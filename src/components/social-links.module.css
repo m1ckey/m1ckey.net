@@ -1,0 +1,11 @@
+.icon-space {
+  margin: 0 0.4em;
+}
+
+.icon-space:first-child {
+  margin-left: 0;
+}
+
+.icon-space:last-child {
+  margin-right: 0;
+}

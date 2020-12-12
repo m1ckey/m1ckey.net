@@ -1,22 +1,30 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "m1ckey",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Michael 'm1ckey' Krickl",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Michael Krickl <m1ckey@m1ckey.net>",
   "dependencies": {
+    "compass-vertical-rhythm": "^1.4.5",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-manifest": "^2.6.1",
-    "gatsby-plugin-offline": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.4.0",
     "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-plugin-typography": "^2.8.0",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-transformer-sharp": "^2.6.0",
+    "gray-percentage": "^2.0.0",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.1.0",
+    "react-tsparticles": "^1.18.11",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-breakpoint-constants": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "2.1.2"
@@ -36,9 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/m1ckey/m1ckey.net"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/m1ckey/m1ckey.net"
   }
 }
