@@ -1,9 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 
 import Particles, { ISourceOptions } from 'react-tsparticles';
 
 const ParticlesBackground = () => {
-  console.log(particleOptions);
   return (
     <Particles
       style={{

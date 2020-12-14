@@ -22,8 +22,8 @@ const IndexPage = () => {
       >
         <div
           style={{
-            minWidth: '70%',
-            paddingBottom: '30vh',
+            minWidth: '80%',
+            padding: '0 5% 40vh 5%',
           }}
         >
           <h1 style={{ marginBottom: 0 }}>Michael Krickl</h1>
