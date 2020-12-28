@@ -31,6 +31,7 @@ function SEO({ description, lang, meta, title, fullpage }) {
   if (fullpage) {
     fullpageProps = {
       htmlAttributes: {
+        lang,
         class: 'fullpage',
       },
       bodyAttributes: {

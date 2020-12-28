@@ -27,7 +27,7 @@ const IndexPage = () => {
           }}
         >
           <h1 style={{ marginBottom: 0 }}>Michael Krickl</h1>
-          <h4 style={{ marginTop: 0 }}>m1ckey</h4>
+          <h4 style={{ marginTop: 0, marginBottom: '1.5em' }}>m1ckey</h4>
           <div
             style={{
               display: 'flex',

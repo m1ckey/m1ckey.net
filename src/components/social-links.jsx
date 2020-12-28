@@ -50,7 +50,7 @@ class SocialLinks extends React.Component {
             <FaInstagram />
           </a>
         </div>
-        <div style={{ fontSize: '1.25em', marginTop: '2em' }}>
+        <div style={{ fontSize: '1.25em', marginTop: '0.6em' }}>
           {this.state.rotCount > 0 ? (
             <span
               onClick={this.handleDecodeEmail}
@@ -71,11 +71,9 @@ class SocialLinks extends React.Component {
               className={styles.iconSpace}
               style={{ color: 'var(--textHeader)', textDecoration: 'none' }}
             >
-              <MdEmail style={{ color: 'var(--textHeader)' }} />
+              <MdEmail />
               &nbsp;
-              <span style={{ color: 'var(--textHeader)', fontSize: '0.8em' }}>
-                {this.state.email}
-              </span>
+              <span style={{ fontSize: '0.8em' }}>{this.state.email}</span>
             </a>
           )}
         </div>
