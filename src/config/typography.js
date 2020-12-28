@@ -25,7 +25,7 @@ const theme = {
   bodyWeight: 400,
   boldWeight: 700,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => {
-    const linkColor = 'var(--accent)'; // todo
+    const linkColor = 'var(--accent)';
     const vr = verticalRhythm({
       baseFontSize: '16px',
       baseLineHeight: '18px',

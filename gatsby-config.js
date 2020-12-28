@@ -20,8 +20,8 @@ module.exports = {
         name: `m1ckey`,
         short_name: `m1ckey`,
         start_url: `/`,
-        background_color: `#1d3354`, // todo
-        theme_color: `#1d3354`, // todo
+        background_color: `#1d3354`,
+        theme_color: `#1d3354`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },
