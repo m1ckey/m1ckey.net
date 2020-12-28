@@ -22,7 +22,7 @@ class SocialLinks extends React.Component {
         rotCount: state.rotCount - 1,
         email: rot(state.email),
       }));
-      setTimeout(this.handleDecodeEmail, Math.random() * 200); // hacker flair
+      setTimeout(this.handleDecodeEmail, Math.random() * 200 + 100); // hacker flair
     }
   };
 
