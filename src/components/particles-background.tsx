@@ -48,7 +48,7 @@ const particleOptions: ISourceOptions = {
         enable: true,
         rotate: {
           x: 64,
-          y: 1024,
+          y: 512,
         },
       },
     },
